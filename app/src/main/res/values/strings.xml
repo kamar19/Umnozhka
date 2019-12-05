@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Umnozhka</string>
+    <string name="act">*</string>
+    <string name="numberOne">5</string>
+    <string name="numberTwo">5</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_Enter">Enter</string>
+    <string name="TextView_1">1*6=6</string>
+    <string name="TextView_2">2*6=12</string>
+    <string name="TextView_3">3*6=6</string>
+    <string name="TextView_4">4*6=6</string>
+    <string name="TextView_5">5*6=6</string>
+    <string name="TextView_6">6*6=6</string>
+    <string name="TextView_7">7*6=6</string>
+    <string name="TextView_8">8*6=6</string>
+    <string name="TextView_9">9*6=6</string>
+    <string name="TextView_10">10*6=6</string>
+    <string name="TextView_11">11*6=6</string>
+    <string name="TextView_12">12*6=62</string>
+    <string name="TextView_Main"> 12 * 6 = ? </string>
+    <string name="str_enter">Введи ответ.</string>
+    <string name="textViewAnswer">72</string>
+
+</resources>

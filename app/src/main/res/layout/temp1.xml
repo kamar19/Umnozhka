@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="10" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <GridLayout
+            android:id="@+id/gridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="3"
+            android:columnCount="3"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints,NestedWeights">
+
+            <TextView
+                android:id="@+id/TextView_1"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_1"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_2"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_2"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_3"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_3"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_4"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_4"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_5"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_5"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_6"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_6"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_7"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_7"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_8"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_8"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_9"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_9"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_10"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:text="@string/TextView_10"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_11"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_11"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TextView_12"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/TextView_12"
+                android:visibility="invisible"
+                android:textSize="14sp" />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/TextView_Main"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="3"
+                android:text="@string/TextView_Main"
+
+
+                android:textSize="34sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:autofillHints="@string/str_enter"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxWidth="30dp"
+                android:maxLength="3"
+                android:textSize="34sp"
+                android:hint="@string/str_enter"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+
+
+        <GridLayout
+            android:id="@+id/gridLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:columnCount="5"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints,NestedWeights">
+            <Space
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+            <Button
+                android:id="@+id/button_1"
+                android:text="@string/button_1"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button_2"
+                android:text="@string/button_2"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button_3"
+                android:text="@string/button_3"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+            <Space
+                android:layout_row="0"
+                android:layout_column="4"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+            <Space
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+            <Button
+                android:id="@+id/button_4"
+                android:text="@string/button_4"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/button_5"
+                android:text="@string/button_5"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/button_6"
+                android:text="@string/button_6"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+            <Space
+                android:layout_row="1"
+                android:layout_column="4"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+            <Space
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+            <Button
+                android:id="@+id/button_7"
+                android:text="@string/button_7"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/button_8"
+                android:text="@string/button_8"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/button_9"
+                android:text="@string/button_9"
+                android:layout_row="2"
+                android:layout_column="3"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+            <Space
+                android:layout_row="2"
+                android:layout_column="4"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+            <Space
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+            <Button
+                android:id="@+id/button_0"
+                android:text="@string/button_0"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/button_Enter"
+                android:text="@string/button_Enter"
+                android:layout_row="3"
+                android:layout_column="3"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:textSize="14sp"/>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
