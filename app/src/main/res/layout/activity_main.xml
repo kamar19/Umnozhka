@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
     <ProgressBar
         android:id="@+id/progressBar"
         style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
