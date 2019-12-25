@@ -29,5 +29,16 @@
     <string name="textViewQuestion"> 12 * 6 = ? </string>
     <string name="str_enter">Введи ответ.</string>
     <string name="textViewAnswerShowBasic">72</string>
-    textViewQuestion
+    <string-array name="entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="title_activity_pref">prefActivity</string>
+    <string name="checkbox_1">CheckBox 1</string>
 </resources>
